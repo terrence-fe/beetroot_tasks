@@ -1,0 +1,81 @@
+body {
+    background-color: #E5EEEE;
+}
+
+.btn_mod {
+    width: 260px;
+    background-color: #23AE92;
+    margin-top: 40px;
+    border-radius: 0px;
+    font-size: 18px;
+}
+
+.container {
+    height: 100vh;
+}
+
+.tabs {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.tabs-b {
+    margin-top: 28px;
+    color: #b9b9cc;
+    font-size: 13px;
+}
+
+.b_line {
+    position: relative;
+}
+
+.t_line {
+    position: relative;
+}
+
+.b_line::after {
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: 0;
+    border: 0.5px solid #736EC9;
+    width: 120%;
+}
+
+.t_line::after {
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: 0;
+    border: 0.5px solid #E66A64;
+    width: 115%;
+}
+
+.tab__create {
+    margin-left: 20%;
+}
+
+.tab__join {
+    margin-left: 10%;
+}
+
+.form-group, .form-check {
+    color: #fff;
+}
+
+.form-check:checked {
+    background-color: teal;
+}
+
+.form_mod {
+    padding: 70px;
+    background: rgb(48,35,184);
+    background: linear-gradient(24deg, rgba(48,35,184,1) 0%, rgba(50,50,217,1) 0%, rgba(200,109,215,1) 100%);
+    box-shadow: 0px 43px 60px -16px black;
+}
+
+.inp_mod {
+    width: 260px;
+    background-color: transparent;
+}
+

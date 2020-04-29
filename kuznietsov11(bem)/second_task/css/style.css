@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background-image: url('/img/Group-3-copy.gif');
+}
+
+.card {
+    width: 690px;
+    background-color: #111a28;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.row {
+    display: flex;
+ 
+}
+
+.flex-col {
+    flex-direction: column;
+    
+}
+
+.card__title {
+    font-size: 24px;
+    color: #e1e1e1;
+    
+}
+
+.card__descr {
+    font-size: 14px;
+    color: #e1e1e1;
+    margin-top: 15px;
+}
+
+.card__rating {
+    margin-top: 25px;
+}
+
+.card__select {
+    margin-top: 25px;
+    background-color: #111a28;
+    color: #80848b;
+    display: flex;
+}
+
+.card__btn {
+    margin-top: 30px;
+    padding: 13px 45px;
+    background-color: #202835;
+    border: 1px solid #4f5560;
+    color: #80848b;
+    width: 185px;
+}
+
+.pagination {
+    margin-top: 70px;
+}
+
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 66%
+}
+
+.card-item {
+    flex: 0 0 34%;
+}
+
+.select{
+    position: relative;  
+  }
+
+.select__item {
+    font-size: 14px;
+    width: 70px;
+    padding: 10px 15px;
+    background-color: #1b2431;
+    border: 1px solid #4f5560;
+    color: #fff;
+    margin: 2px;
+}
+  .select:after {
+    content: ""; 
+    background-image: url('/img/Rectangle-2.gif') ;
+    background-repeat: no-repeat;
+    padding: 0 8px;
+    font-size: 12px;
+    position: absolute; 
+    right: 5px; top: 18px;
+    z-index: 1;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;  
+  }
+  select {  
+    padding-right: 25px;
+    border: 1px solid #ABADB3;  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }

@@ -1,0 +1,179 @@
+@import 'fonts.css';
+
+/* Header */
+
+header {
+    height: 100vh;
+    background-image: url('/img/fresh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 15px;
+}
+
+.header {
+    height: 150px;
+}
+
+.logo {
+    font-family: 'Pacifico';
+    font-size: 3.5rem;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    padding: 1rem;
+}
+
+.nav__item {
+    margin: 1rem;
+    text-transform: uppercase;
+}
+
+.nav__item a {
+    text-decoration: none;
+    color: black;
+}
+
+/* --Header-- */
+
+
+/* Indent */
+
+/* .nav__item + .nav__item {
+    margin-left: 30px;
+} */
+
+/* --indent-- */
+
+
+
+
+/* Button */
+
+.btn {
+    font-size: 20px;
+    color: #ffffff;
+    width: 200px;
+    padding: 15px 10px;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: #fff;
+    filter: brightness(0.9);
+}
+
+/* --button-- */
+
+/* Fresh section */
+
+.fresh {
+    height: calc(100vh - 150px);
+}
+
+.fresh-container {
+    width: 450px;
+}
+
+.fresh__title {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.fresh__subtitle {
+    font-size: 17px;
+    margin-bottom: 32px
+}
+
+.fresh_btn {
+    background-color: #ff6033;
+}
+
+/* --fresh section-- */
+
+/* About section */
+
+    .about {
+        background-color: #00b1b1;
+        padding: 180px 0 220px 0;
+    }
+
+    .about-bg {
+        background-image: url('/img/about.gif');
+        background-repeat: no-repeat;
+        background-size: 560px 560px;
+        background-position: left center;
+    }
+
+    .about-container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 560px;
+        width: 500px;
+    }
+
+    .about__title {
+        font-size: 90px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .about__subtitle {
+        font-size: 17px;
+        color: #ffffff;
+    }
+
+/* --About section-- */
+
+/* Services */
+
+    .services {
+        background-color: #70bfff;
+        padding: 180px 0 150px 0;
+    }
+
+    .services-card__item {
+        background-color: #fff;
+        padding: 30px 0px;
+        margin-bottom: 20px;
+    }
+
+    .services-card__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .card__item-title {
+        width: 300px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #000;
+        text-align: center;
+    }
+
+    .card__item-icon {
+        width: 100px;
+    }
+
+    .services__title {
+        font-size: 90px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+/* --Services-- */
+
+.sd {
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: bold;
+}

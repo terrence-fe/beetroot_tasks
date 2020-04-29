@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b07cf7;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-Bold.ttf');
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 90px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text {
+    width: 570px;
+    margin: 30px auto 50px auto;
+    text-align: center;
+    color: white;
+}
+
+.gournal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gournal_item {
+    width: 370px;
+    height: 310px;
+    padding: 20px;
+ 
+}
+
+.gournal_item-date {
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0,0,0, 0.3);
+    color: white;
+    margin: 12px 0px 0px 12px;
+    padding: 5px;
+    
+}
+
+.gournal_item-content {
+    font-size: 20px;
+    margin-top: 120px;
+    color: #ffffff;
+}
+
+.gournal_item-author {
+    font-size: 13px;
+    margin-top: 28px;
+    color: #ffffff;
+}
+
+.first_img {
+    background-image: url('../img/img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second_img {
+    background-image: url('../img/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third_img {
+    background-image: url('../img/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    background-color: #f72b3b;
+    border: none;
+    display: block;
+    width: 200px;
+    height: 55px;
+    font-size: 20px;
+    margin: 55px auto 0px auto;
+    text-transform: uppercase;
+    color: white;
+}

@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('/fonts/MyriadPro-Regular.eot');
+    src: url('/fonts/MyriadPro-Regular.eot#iefix') format('embedded-opentype'),
+    url('/fonts/MyriadPro-Regular.woff') format('woff'),
+    url('/fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.content {
+
+    font-size: 18px;
+}
+
+.content h1 {
+    font-size: 42px;
+}
+
+.content p {
+    margin-top: 50px;
+    line-height: 34px;
+}
+
+.first-letter:first-letter {
+    font-size: 100px;
+    padding: 30px 30px 30px 0px; 
+    float: left;
+}
+
+blockquote p {
+    font-size: 24px;
+    font-family: 'Myriad Pro Regular';
+    line-height: 34px;
+    font-style: italic;
+    
+}
+
+blockquote p:before {
+    content: '“';
+    padding: 0px 20px;
+    font-size: 45px;
+}
+
+.btn {
+    margin-top: 40px;
+    width: 265px;
+    height: 70px;
+    border: 1px solid #eaa258;
+    color: #eaa258;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: bold;
+    background-color: #fff;
+}

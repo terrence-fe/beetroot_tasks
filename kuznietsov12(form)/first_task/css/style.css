@@ -1,0 +1,78 @@
+body {
+    background-image: url('/img/Clip.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+
+.h1_mod {
+    margin-top: 80px;
+    font-size: 90px;
+}
+
+.subtitle {
+    margin-top: 25px;
+    width: 350px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+.info {
+    margin-top: 35px;
+}
+
+strong {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.info-data {
+    margin-left: 150px;
+}
+
+.info-data p {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.footer {
+    color: #fff;
+    height: 90px;
+    background-color: #262626;
+    display: flex;
+}
+.height {
+    height: 100%;
+}
+
+.inp_mod {
+    background-color: rgba(0, 196, 196, 0.6);
+    border-radius: 0px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.inp_mod:first-child {
+    margin-top: 0px;
+}
+
+.inp_mod:focus {
+    font-weight: 500;
+    background-color: #00C4C4;
+    border-left: 3px solid #355B82;
+    color: #fff;
+}
+
+.form-control::-webkit-input-placeholder { color: #fff; }
+.form-control::-moz-placeholder          { color: #fff; } /* Firefox 19+ */
+.form-control:-moz-placeholder           { color: #fff; } /* Firefox 18- */
+.form-control:-ms-input-placeholder      { color: #fff; }
+
+#comment {
+    height: 250px;
+}
+
+textarea {
+    resize: none
+}
